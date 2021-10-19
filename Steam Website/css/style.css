@@ -1,0 +1,100 @@
+body {
+	background-color: #111;
+	color: #ccc;
+	font-family: sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+	'header header header header header header header'
+	'menu main main main main main main'
+	'menu main main main main main main'
+	'. . footer footer footer footer footer';
+	grid-gap: 5px;
+}
+.grid-container div {
+	border-radius: 2px;
+	padding: 0px 5px;
+}
+
+.header {
+	grid-area: header;
+	height: 60px;
+	margin: -8px;
+	margin-bottom: 0px;
+	background-image: repeating-linear-gradient(-40deg, #333, #333 1.5px, #222 1.5px, #223 3px);
+	box-shadow: inset 0 0px 24px -6px black;
+}
+.header h2 {text-shadow: 2px 2px black;padding-left: 20px;
+    display: block;
+    width: 372px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;}
+
+.navpanel {grid-area: menu;background-color: #fff;}
+.navpanel h3 {
+    font-size: 14px;
+    text-shadow: 1px 1px black;
+    border-bottom: 1px solid grey;
+    padding:1px;
+    margin-bottom: -12px;
+}
+.navpanel ul {
+    list-style-type: none;
+    padding:0;
+}
+.navpanel a {
+    text-decoration: none;
+    color:steelblue;
+    font-size: 12px;
+    margin-bottom:-8px;
+}
+.navpanel a:hover {text-decoration: underline;}
+
+.content {
+	grid-area: main;
+	background-color: #222;
+	border: 1px solid grey;
+}
+.content h1{padding-left: 5px}
+.intro a{color: tomato; text-decoration: none;}
+.intro a:hover{text-decoration: underline;}
+.categories h2 {
+    background: #222;
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+.categories p {
+    background: #222;
+    margin-top: -12px
+}
+
+.footer {
+	grid-area: footer;
+	background-color: #111;
+	font-size: 11px;
+}
+.footer ul {list-style-type: none;}
+.footer a {
+	float: left;
+	margin-right: 10px;
+	text-decoration: none;
+    color:steelblue;
+}
+
+
+strong {
+    font-weight:100px;
+    color: #86bf40
+}
+mark {
+	background-color: #10a160;
+	border-radius: 3px;
+}
+

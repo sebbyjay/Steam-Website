@@ -1,0 +1,21 @@
+.headerindex {
+	min-height: 660px;
+	margin: 170px 10px 10px 50px;
+	background-color: transparent;
+	text-align: center;
+	text-shadow: 2px 2px 5px black;
+	color:#fff;
+}
+.headerindex h1{
+	font-size: 56px;	
+	margin: 0px;
+}
+
+.header {
+	height: 90px;
+	min-height: 350px;
+	margin: 130px 0px 0px 50px;
+	background-color: transparent;
+	text-shadow: 2px 2px 5px black;
+	color:#fff;
+}

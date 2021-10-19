@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+	background-image: url(../images/steam.jpg);
+	background-attachment: fixed;
+	background-position: cover;
+	background-size: cover;
+	background-repeat: repeat;
+	
+	color: #eee;
+	font-family: "Roboto Condensed";
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	position: relative;
+	width: 100%;
+	margin: 0;
+}
+.page div {
+	padding: 0px 0px;
+}
+.main {
+	min-height: 600px;
+}
+
+.socials {
+	text-align: center;
+	height: 130px;
+}
+a {
+	text-decoration: none;
+}
+.youtube {
+	height: 50px;
+	width: auto;
+	padding: 20px 10px;
+}
+.instagram {
+	height: 50px;
+	width: auto;
+	padding: 20px 10px;
+}
+.facebook{
+	height: 50px;
+	width: auto;
+	padding: 20px 10px;
+}
+.map{
+	height: 800px;
+	width: 98vw;
+	padding: 20px 10px;
+}
+
+.about {	
+	font-size: 18px;
+	background: rgba(17, 17, 17, 0.95);
+	min-height: 350px;
+	text-align: center;
+	border-bottom: 1px solid #236;
+	border-top: 1px solid #236;
+}
+.about h4 {
+	font-size: 24px;
+	margin: 0;
+	padding: 30px;
+}
+.about p {
+	margin: 0;
+	padding: 0px 30px;
+}
+.about li {
+	text-align: left;
+	padding: 0px 450px;
+	list-style: inside;
+}
+
+.gameinfo {
+	background-image: url(../images/bboard.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #444;
+	min-height: 400px;
+	bottom: 0;
+	text-align: center;
+	text-shadow: 1px 1px 3px #000;
+}
+.gameinfo h4{
+	font-size: 24px;
+	margin: 0;
+	padding: 30px;
+}
+.gameinfo p{
+	font-size: 18px;
+	margin: 0;
+	padding: 0px 30px;
+}

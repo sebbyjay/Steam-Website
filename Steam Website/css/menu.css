@@ -1,0 +1,84 @@
+.logo{
+	width:70px;
+	height:70px;
+	border-radius:35px;
+	margin: 5px 10px;
+}
+.menu {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0px;
+	float: center;
+	background-color: rgba(34, 34, 34, 0.95);
+	border-bottom: 1px solid #236;
+	box-shadow: 0px 1px 100px #222; 
+}
+.menu h3{
+	display: inline-block;
+	position: relative;
+	top: -35px;
+	margin-left: 10px;
+	color: #eee;
+	text-shadow: 1px 1px 4px black;
+}
+.navlinks{
+	position: static;
+	display: flex;
+	float: right;
+	margin: 25px 50px;
+	padding: 100px;
+	justify-content: space-around;
+	align-items: left;
+}
+.navlinks a{
+	text-decoration: none;
+	color: #eee
+}
+.hb, .sb, .tb, .eb, .ab, .mb{
+	margin: 0px 3px;
+	padding: 0px;
+	height: 24px;
+	width: 100px;
+	border-radius: 2px;
+	color: #eee;
+	background: linear-gradient(rgba(64, 64, 64, 0.9),rgba(50, 50, 50, 0.9));
+	border: none;
+}
+.science, .tech, .engineer, .art, .maths{
+	display: none;
+	position: absolute;
+	min-width: 105px;
+	margin: 0px 3px;
+	padding: 10px 10px;
+	background-color: rgba(50, 50, 50, 1.0);
+	color: #eee;
+	border-radius: 3px; 
+}.maths{min-width: 130px;}
+
+.science a, .tech a, .engineer a, .art a, .maths a{
+	padding: 3px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #eee;
+}
+.science ul, .tech ul, .engineer ul, .art ul, .maths ul{
+	list-style: none;
+	margin: 0px;
+	padding: 5px;
+	text-shadow: none;
+}
+.science li, .tech li, .engineer li, .art li, .maths li{
+	margin: 0px;
+	padding: 2px 0px;
+	display: block;
+}
+  
+.drops:hover > .science {display: block;}
+.dropt:hover > .tech {display: block;}
+.drope:hover > .engineer {display: block;}
+.dropa:hover > .art {display: block;}
+.dropm:hover > .maths {display: block;}
+
+.hb:hover, .sb:hover, .tb:hover, .eb:hover, .ab:hover, .mb:hover {cursor: pointer; background-image: linear-gradient(rgba(80, 80, 80, 0.9),rgba(54, 54, 54, 0.9))}
+.science a:hover, .tech a:hover, .engineer a:hover, .art a:hover, .maths a:hover {background-color: #6F479B; color:#eee; text-shadow: none}
